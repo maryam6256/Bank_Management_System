@@ -91,8 +91,8 @@ void search_Account()
             cout << "\n\nWelcome: " << A[a].name;    
             cout << "\n\nAccount ID: " << A[a].accountId;
             cout << "\n\nAmount stored: " << A[a].funds;
-            present++;
-        }
+            present++; //Good
+        }  
     }
     if (present==0)
     cout << "\nInvalid Password!!";
