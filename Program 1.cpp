@@ -72,7 +72,7 @@ void add_Account()
     cout << "\n\nPress any key to return to Main Menu";
     write_to_file();
     i++;   //increment number of accounts.
-	getch();                        
+	getch();         // Better approach would be to use a loop.                
 }
 
 void search_Account()
