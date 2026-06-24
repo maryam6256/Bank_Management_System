@@ -79,7 +79,7 @@ void search_Account()
 {
     system("cls");
     heading();
-    string password;
+    string password; // a predefined size password should be adopted.
     int present = 0;
     cout << "\n\nEnter your password: ";
     cin >> password;
